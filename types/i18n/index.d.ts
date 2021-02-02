@@ -96,6 +96,11 @@ declare namespace i18n {
          * @default false
          */
         objectNotation?: boolean;
+        
+        /**
+        * will return translation from defaultLocale in case current locale doesn't provide it
+        */
+        retryInDefaultLocale?: boolean;
 
         /**
          * Setting of log level DEBUG
